@@ -1,0 +1,119 @@
+/* button color #BA0CC5 */
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+body {
+    background: no-repeat url("assets/bg.png");
+    background-size: cover;
+}
+
+.container {}
+
+li,
+button,
+.logo {
+    cursor: pointer;
+}
+
+button:hover {
+    color: rgb(19, 19, 19);
+    /* box-shadow: 0px 2px 20px rgb(103, 95, 100) inset; */
+}
+
+.navbar {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    display: flex;
+    align-self: center;
+}
+
+.navbar>div:first-child {
+    flex-grow: 0.2;
+    margin-left: 100px;
+}
+
+.logo {
+    padding: 25px 10px;
+    flex-grow: 0.2;
+    width: 100px;
+}
+
+.line {
+    align-self: stretch;
+    margin: 15px 10px;
+    flex-shrink: 0.5;
+    border-right: 2px solid white;
+}
+
+.grow-list {
+    flex-grow: 0.5;
+    align-self: center
+}
+
+.list {
+    padding: 25px 100px;
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+
+.list>li:first-child::after {
+    position: absolute;
+    padding-left: 3px;
+    /* content: "\f107"; */
+    content: url("./assets/arrow.png");
+}
+
+.navbar>div:last-child {
+    position: relative;
+    align-self: center;
+    justify-self: flex-end;
+}
+
+.button-small {
+    padding: 10px 30px;
+    background-color: #BA0CC5;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+.hero {
+    margin: 5% 20%;
+    margin-left: 20%;
+    margin-top: 8%;
+    width: 60%;
+    text-align: center;
+    color: white;
+}
+
+.hero-heading {
+    font-family: Poppins;
+    font-size: 80px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.hero-description {
+    margin-top: 20px;
+    font-family: Poppins;
+    font-size: 25px;
+}
+
+.button-large {
+    margin-top: 25px;
+    background-color: #BA0CC5;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 30px;
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+}
