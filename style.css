@@ -67,6 +67,7 @@ button:hover {
     padding-left: 3px;
     /* content: "\f107"; */
     content: url("./assets/arrow.png");
+    /* content: url("./assets/greaterThan.svg") */
 }
 
 .navbar>div:last-child {
